@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+# Housing-Tinder
+An app that aims to simplify and streamline the process of finding housing.
+It allows for people to set preferences in regards to what they want for
+housing such as choosing apartments over 500 sq. ft. or choosing a house with
+3 beds and 2 baths. The app will also allow for people to save the places
+that match with their preferences allowing for easier tracking.
+>>>>>>> 4bd11b5493ae13d5140ce17065d4624f7a74c19f
