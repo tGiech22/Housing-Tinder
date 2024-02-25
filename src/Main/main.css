@@ -1,0 +1,84 @@
+.main-container {
+    display: flex;
+    height: 100vh; 
+    background-color: #2B2B2B; 
+}
+
+
+.main-logo {
+    flex: 4; 
+    background-color: #2B2B2B;
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    justify-content: left;
+    align-items: center;
+}
+.main-logo img {
+    width: 750px; 
+    height: 500px;
+}
+
+.main-login {
+    background-color: #2B2B2B; 
+}
+
+.main-button {
+    width: 400px;
+    height: 50px;
+    background-color: #2B2B2B;
+    border-radius: 30px;
+    color: white;
+    border-color: white;
+    border-width: 0.5px; 
+    border-style: solid; 
+    margin-bottom: 40px;
+    margin-right:40px;
+}
+
+.signup-button {
+    width: 400px;
+    height: 50px;
+    background-color: #2B2B2B;
+    border-radius: 30px;
+    color: white;
+    border-color: white;
+    border-width: 0.5px; 
+    border-style: solid; 
+    margin-bottom: 20px;
+    margin-right:40px;
+    text-align: center;
+}
+
+.button-main-container {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .button-signup-container {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .custom-dropdown {
+    width: 400px;
+    height: 50px;
+    background-color: #2B2B2B;
+    border-radius: 30px;
+    color: white;
+    border-color: white;
+    border-width: 0.5px; 
+    border-style: solid; 
+    margin-bottom: 20px;
+    margin-right:40px;
+    text-align: center;
+    width: 200px;
+    margin: 5px;
+  }
+
