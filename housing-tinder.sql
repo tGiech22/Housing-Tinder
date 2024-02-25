@@ -14,6 +14,9 @@ CREATE TABLE house
     rent int NOT NULL,
     safetyRating int NOT NULL,
     leaseTerm int NOT NULL,
+    title text NOT NULL,
+    description text,
+    keyFeatures text,
     #interest is boolean. If user likes the house interest is true. Else it is false
     interest BOOL DEFAULT FALSE NOT NULL,
     id int NOT NULL AUTO_INCREMENT,
@@ -30,3 +33,17 @@ CREATE TABLE image
     CONSTRAINT fk_1
         FOREIGN KEY (houseID) REFERENCES house (id)
 );
+
+CREATE TABLE user
+(
+    id int NOT NULL AUTO_INCREMENT,
+    firstName varchar(50) NOT NULL,
+    middleName varchar(50),
+    lastName varchar(50) NOT NULL,
+    phoneNumber varchar(50) NOT NULL,
+    city varchar(50),
+    state varchar(50),
+    priceRange int,
+    preferences varchar(100),
+    PRIMARY KEY (id)
+)
