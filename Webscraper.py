@@ -11,4 +11,8 @@ headers = {
 
 response = requests.get(url, headers=headers, params=querystring)
 
-print(response.json())
+for listing in response:
+    # put listing one by one into the database
+
+
+#print(response.json())
