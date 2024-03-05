@@ -94,7 +94,7 @@ function MainSignup() {
     return (
         <div className="button-signup-container">
             <button className="signup-button">Name</button>
-            <button className="signup-button">Phone Numeber</button>
+            <button className="signup-button">Phone Number</button>
             <button className="signup-button">City</button>
             <Select styles={customStyles}
                 options={options}
